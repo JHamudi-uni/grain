@@ -1,0 +1,12 @@
+my_model/pipeline.config filter=lfs diff=lfs merge=lfs -text
+my_model/saved_model filter=lfs diff=lfs merge=lfs -text
+my_model/saved_model/assets filter=lfs diff=lfs merge=lfs -text
+my_model/saved_model/variables filter=lfs diff=lfs merge=lfs -text
+my_model/saved_model/variables/variables.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+my_model/checkpoint/ckpt-0.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+my_model/checkpoint/ckpt-0.index filter=lfs diff=lfs merge=lfs -text
+my_model/label_map.pbtxt filter=lfs diff=lfs merge=lfs -text
+my_model/saved_model/saved_model.pb filter=lfs diff=lfs merge=lfs -text
+my_model/saved_model/variables/variables.index filter=lfs diff=lfs merge=lfs -text
+my_model/checkpoint filter=lfs diff=lfs merge=lfs -text
+my_model/checkpoint/checkpoint filter=lfs diff=lfs merge=lfs -text
